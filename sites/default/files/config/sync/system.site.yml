@@ -1,7 +1,11 @@
 uuid: d5fd2be5-075a-478e-9d9f-6d4b57390e9b
 name: Eatandshare
 mail: nabin.aryal@outlook.com
+<<<<<<< HEAD
 slogan: 'whatever you want'
+=======
+slogan: 'Lets share our food. Live good,'
+>>>>>>> e0f5d5ac62ea1dafffd33310452a4b192ce3c42c
 page:
   403: ''
   404: ''
