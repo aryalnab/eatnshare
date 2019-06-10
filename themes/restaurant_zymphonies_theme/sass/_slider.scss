@@ -1,0 +1,101 @@
+
+/*Flexslider*/
+
+.flexslider {
+	border: 0;
+	margin: 0 0 20px 0;
+	@include box-shadow(none);
+	@include border-radius(0);
+
+	.slider-caption{
+		display: none;
+	    position: absolute;
+	    top: 10%;
+	    left: 50%;
+	    z-index: 999;
+	    width: 50%;
+	    text-align: left;
+	    font-size: 1em;
+	    line-height: 150%;
+	    color: #000;
+	    background: #fff;
+	    background: rgba(255, 255, 255, 0.9);
+	    padding: 2%;
+	    margin-left: -25%;
+	    @include transition(all 0.2s);
+	}
+
+	h2{
+		font-size: 1.3em;
+		display: inline-block;
+		text-transform: uppercase;
+		margin: 0;
+		line-height: 100%;
+		padding: 10px 0;
+		color: $linkColor;
+		border-bottom: 4px solid $linkColor;
+    	margin-bottom: 10px;
+	}
+
+	.slider-description{
+		display: inline-block;
+		clear: both;
+	}
+
+	.more-link{
+		padding: 8px 10px;
+		font-size: .9em;
+		display: inline-block;
+		text-transform: uppercase;
+		border: 1px solid $linkColor;
+
+		&:hover{
+			background: $linkColor;
+			color: #fff;
+		}
+	}
+
+	.slides{
+		
+		li{
+			position: relative;
+
+			&:hover{
+				.slider-caption{
+					top: 15%;
+				}
+			}
+		}
+	}
+
+	.flex-direction-nav{
+		display: none;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+
+		li{
+			list-style: none;
+		}
+
+		a{
+			font-size: 0;
+    		padding: 10px;
+		}
+	}
+
+	.flex-control-paging li a {
+	    width: 8px;
+	    height: 8px;
+	    display: block;
+	    background: #fff;
+	    cursor: pointer;
+	    text-indent: -9999px;
+	    @include border-radius(50%);
+	}
+
+	.flex-control-nav{
+		bottom: 0;
+	}
+
+}
