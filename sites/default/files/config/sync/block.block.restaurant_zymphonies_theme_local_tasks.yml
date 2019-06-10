@@ -1,0 +1,22 @@
+uuid: ccd2cf5d-410c-43c6-957f-7578996f3655
+langcode: en
+status: true
+dependencies:
+  theme:
+    - restaurant_zymphonies_theme
+_core:
+  default_config_hash: 4k205TdPXICj7kMpd7mSNs45ong2Hio1Pll1AhLG7So
+id: restaurant_zymphonies_theme_local_tasks
+theme: restaurant_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

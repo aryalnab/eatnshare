@@ -1,0 +1,20 @@
+uuid: 8463b2a6-f89a-44da-a447-44c98a59160e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - restaurant_zymphonies_theme
+_core:
+  default_config_hash: 0rCKFziY3ImbnSx-K8KtEFhJk8WQ0QJG4ymvQ7fC5UY
+id: restaurant_zymphonies_theme_page_title
+theme: restaurant_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

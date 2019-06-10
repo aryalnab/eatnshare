@@ -1,0 +1,27 @@
+uuid: c93a6529-2cb2-4cdc-b7d2-40a0c54bad70
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - restaurant_zymphonies_theme
+_core:
+  default_config_hash: CTCjFPuG26nlKnXKidRR_IgMkTNfkZ26sePSwKLjNBQ
+id: restaurant_zymphonies_theme_account_menu
+theme: restaurant_zymphonies_theme
+region: user_menu
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

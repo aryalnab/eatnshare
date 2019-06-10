@@ -1,0 +1,22 @@
+uuid: b1518e98-3eb6-41db-ad9d-b0677348275f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - restaurant_zymphonies_theme
+_core:
+  default_config_hash: EKpgppenot4UJJk2kriGFckgyHL5kJZNWrCrow4Kml4
+id: restaurant_zymphonies_theme_content
+theme: restaurant_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
