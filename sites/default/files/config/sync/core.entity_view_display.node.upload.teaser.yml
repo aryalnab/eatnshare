@@ -1,0 +1,30 @@
+uuid: 2918454f-8e17-4eb0-a8c9-8f75f8443bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.upload.body
+    - node.type.upload
+  module:
+    - text
+    - user
+id: node.upload.teaser
+targetEntityType: node
+bundle: upload
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

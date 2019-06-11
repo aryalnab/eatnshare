@@ -1,0 +1,22 @@
+uuid: e902d6b5-61f9-4503-8287-be06f03fe697
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recipes_card
+  module:
+    - text
+id: node.recipes_card.body
+field_name: body
+entity_type: node
+bundle: recipes_card
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
