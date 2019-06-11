@@ -7,7 +7,8 @@
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drush/drush": "^9.7",
-        "drupal/Webform": "^5.2"
+        "drupal/Webform": "^5.2",
+        "drupal/webform": "^5.2"
     },
     "replace": {
         "drupal/core": "^8.7"
