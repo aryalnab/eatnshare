@@ -1,0 +1,22 @@
+uuid: 5ef6a24c-5785-4116-82a4-c778490c5650
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.upload
+  module:
+    - text
+id: node.upload.body
+field_name: body
+entity_type: node
+bundle: upload
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

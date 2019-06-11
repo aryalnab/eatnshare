@@ -1,0 +1,39 @@
+uuid: fb8f76c1-230c-4864-873c-ef5e6a22c3c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.upload.body
+    - field.field.node.upload.field_picture
+    - node.type.upload
+  module:
+    - image
+    - text
+    - user
+id: node.upload.default
+targetEntityType: node
+bundle: upload
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_picture:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

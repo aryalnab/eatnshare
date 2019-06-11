@@ -1,7 +1,11 @@
 uuid: d5fd2be5-075a-478e-9d9f-6d4b57390e9b
-name: eatNshare
+name: Eatandshare
 mail: nabin.aryal@outlook.com
+<<<<<<< HEAD
 slogan: 'Share your secret!!'
+=======
+slogan: 'dance and dance!'
+>>>>>>> 7859ec10bd65b1b1d79f6de6c26e7f0e034052e2
 page:
   403: ''
   404: ''

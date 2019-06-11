@@ -1,0 +1,28 @@
+uuid: e120e444-ae41-407c-b8f6-ac45996925fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipes_card.body
+    - node.type.recipes_card
+  module:
+    - text
+    - user
+id: node.recipes_card.default
+targetEntityType: node
+bundle: recipes_card
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
