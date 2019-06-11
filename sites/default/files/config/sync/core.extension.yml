@@ -22,6 +22,7 @@ module:
   history: 0
   image: 0
   link: 0
+  menu_block: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -31,6 +32,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  simplelogin: 0
   system: 0
   taxonomy: 0
   text: 0
