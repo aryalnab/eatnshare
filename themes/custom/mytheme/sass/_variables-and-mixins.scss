@@ -1,0 +1,46 @@
+
+/*Variables*/
+
+$fontFamily: 'Open Sans', sans-serif;
+$titleFontFamily: 'Oswald', sans-serif;
+$baseFontSize: 13px;
+$bodyBGColor: #fff;
+$baseFontColor: #333;
+
+$linkColor: #D32931;
+$linkColorHover: #bb1a22;
+
+/*Header*/
+
+$headerBGColor: #000;
+$headerTextColor: #fff;
+
+/*Menu Color*/
+
+$menuTextColor: #fff;
+$menuTextActiveColor: #ee3224;
+
+$mobileMenuBg: #212020;
+
+$desktopMenuTextColor: #fff;
+$desktopMenuDropDownBg: #19232d;
+
+$servicesBg: #333;
+$servicesTextColor: #fff;
+
+
+/*Mixins*/
+
+@mixin globalButton(){
+	border: 1px solid $linkColor;
+	color: $linkColor;
+	background: #fff;
+	padding: 10px 15px;
+	line-height: 100%;
+	border-radius: 0;
+}
+
+@mixin globalButtonHover(){
+	background: $linkColorHover;
+	color: #fff;
+}

@@ -1,0 +1,27 @@
+uuid: d4f8e420-92c0-4f0b-8096-22c1cb24ce1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - restaurant_zymphonies_theme
+_core:
+  default_config_hash: cXda2q-6EdXasa-vqNxHA-716NEEl8uuGzcOWxLUHnY
+id: restaurant_zymphonies_theme_main_menu
+theme: restaurant_zymphonies_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }
