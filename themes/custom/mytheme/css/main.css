@@ -6,3 +6,7 @@ background-color: yellow;
 display:flex;    
 align-items:flex-start;
 }
+
+#main-menu{
+    background-color:brown;
+}
