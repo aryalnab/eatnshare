@@ -1,0 +1,14 @@
+name: Super Login
+description: Improves the Drupal login and registration forms.
+package: User interface
+
+type: module
+# core: 8.x
+
+configure: super_login.settings
+
+# Information added by Drupal.org packaging script on 2018-05-08
+version: '8.x-1.2'
+core: '8.x'
+project: 'super_login'
+datestamp: 1525797791

@@ -11,7 +11,9 @@
         "drupal/simplelogin": "^3.3",
         "drupal/menu_block": "^1.5",
         "drupal/page_menu_reorder": "^1.6",
-        "drupal/we_megamenu": "^1.5"
+        "drupal/we_megamenu": "^1.5",
+        "drupal/super_login": "^1.2",
+        "drupal/better_login_form_config": "^1.1"
     },
     "replace": {
         "drupal/core": "^8.7"
