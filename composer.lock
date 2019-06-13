@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d23c7fad835f7669fe56cfe97821d87",
-    "content-hash": "b698545c55e29ba7868ffcc91eb9c74f",
+    "hash": "d798615d0add0b310835536139cd6ef7",
+    "content-hash": "b0d65c414f8b2389177f8ddf61517fc1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1750,6 +1750,67 @@
             }
         },
         {
+            "name": "drupal/rules",
+            "version": "3.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rules.git",
+                "reference": "8.x-3.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rules-8.x-3.0-alpha4.zip",
+                "reference": "8.x-3.0-alpha4",
+                "shasum": "d6f11a6bd867b3479504b00278b4465a5b138d3a"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/typed_data": "*"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
+                "drupal/coder": "8.2.*",
+                "squizlabs/php_codesniffer": "2.9.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha4",
+                    "datestamp": "1526654284",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                }
+            ],
+            "description": "React on events and conditionally evaluate actions.",
+            "homepage": "https://www.drupal.org/project/rules",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rules"
+            }
+        },
+        {
             "name": "drupal/simplelogin",
             "version": "3.3.0",
             "source": {
@@ -1797,6 +1858,20 @@
             }
         },
         {
+<<<<<<< HEAD
+            "name": "drupal/typed_data",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/typed_data.git",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "962d53659f73de8dfa43f291ef40ec26e1b7a07f"
+=======
             "name": "drupal/super_login",
             "version": "1.2.0",
             "source": {
@@ -1809,6 +1884,7 @@
                 "url": "https://ftp.drupal.org/files/projects/super_login-8.x-1.2.zip",
                 "reference": "8.x-1.2",
                 "shasum": "c6a581dcc266ba2158d101b3314fbcd9f16bf6e9"
+>>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1819,16 +1895,42 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
+<<<<<<< HEAD
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1554612486",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+=======
                     "version": "8.x-1.2",
                     "datestamp": "1525797784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+>>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
+<<<<<<< HEAD
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIS and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "https://git.drupalcode.org/project/typed_data"
+=======
                 "GPL-2.0-or-later"
             ],
             "authors": [
@@ -1841,6 +1943,7 @@
             "homepage": "https://www.drupal.org/project/super_login",
             "support": {
                 "source": "https://git.drupalcode.org/project/super_login"
+>>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
             }
         },
         {
@@ -5915,7 +6018,7 @@
             "time": "2019-01-14 23:55:14"
         },
         {
-            "name": "mikey179/vfsStream",
+            "name": "mikey179/vfsstream",
             "version": "v1.6.5",
             "source": {
                 "type": "git",
@@ -7108,6 +7211,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/rules": 15,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },

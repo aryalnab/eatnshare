@@ -26,7 +26,7 @@ sites/*/services*.yml
  sites/*/files/css
  sites/*/files/jss
  sites/*/files/php
-sites/*/private
+ sites/*/private
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest

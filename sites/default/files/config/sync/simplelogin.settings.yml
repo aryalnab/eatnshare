@@ -1,8 +1,0 @@
-background_active: 1
-background_image:
-  - '1'
-background_color: '#804000'
-background_opacity: 0
-wrapper_width: '360'
-unset_active_css: 1
-unset_css: ''
