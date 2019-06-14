@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d798615d0add0b310835536139cd6ef7",
-    "content-hash": "b0d65c414f8b2389177f8ddf61517fc1",
+    "hash": "deed8ca9b4add86d36edf2b9a0343faf",
+    "content-hash": "6b7348e8ac3097b7fe712ff1ab98bdec",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1581,6 +1581,60 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/advanced_user_registration_and_management",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/advanced_user_registration_and_management.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/advanced_user_registration_and_management-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "f7e328218d655e4562b9457cedc1c25a3c164360"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/sociallogin": "*",
+                "drupal/userregistration": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1496769243",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "loginradius",
+                    "homepage": "https://www.drupal.org/user/1709166"
+                },
+                {
+                    "name": "lrkarlwittig",
+                    "homepage": "https://www.drupal.org/user/3527658"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/advanced_user_registration_and_management",
+            "support": {
+                "source": "https://git.drupalcode.org/project/advanced_user_registration_and_management"
+            }
+        },
+        {
             "name": "drupal/better_login_form_config",
             "version": "1.1.0",
             "source": {
@@ -1625,6 +1679,108 @@
             "homepage": "https://www.drupal.org/project/better_login_form_config",
             "support": {
                 "source": "https://git.drupalcode.org/project/better_login_form_config"
+            }
+        },
+        {
+            "name": "drupal/betterlogin",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/betterlogin.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/betterlogin-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "6b9ab142bf563685346d2b4e2db46ada209ed6ad"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1515587585",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "theamoeba",
+                    "homepage": "https://www.drupal.org/user/251700"
+                },
+                {
+                    "name": "yogeshmpawar",
+                    "homepage": "https://www.drupal.org/user/2922907"
+                }
+            ],
+            "description": "Make the login screens better :)",
+            "homepage": "https://www.drupal.org/project/betterlogin",
+            "support": {
+                "source": "https://git.drupalcode.org/project/betterlogin"
+            }
+        },
+        {
+            "name": "drupal/fancy_login",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fancy_login.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fancy_login-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "93e36c303a275268f1713f1b61b4774c6d120273"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1491842942",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AlexBorsody",
+                    "homepage": "https://www.drupal.org/user/473596"
+                },
+                {
+                    "name": "Jaypan",
+                    "homepage": "https://www.drupal.org/user/324696"
+                }
+            ],
+            "description": "Creates a fancy javascript based popup login window",
+            "homepage": "https://www.drupal.org/project/fancy_login",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fancy_login"
             }
         },
         {
@@ -1858,20 +2014,6 @@
             }
         },
         {
-<<<<<<< HEAD
-            "name": "drupal/typed_data",
-            "version": "1.0.0-alpha3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/typed_data.git",
-                "reference": "8.x-1.0-alpha3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha3.zip",
-                "reference": "8.x-1.0-alpha3",
-                "shasum": "962d53659f73de8dfa43f291ef40ec26e1b7a07f"
-=======
             "name": "drupal/super_login",
             "version": "1.2.0",
             "source": {
@@ -1884,7 +2026,6 @@
                 "url": "https://ftp.drupal.org/files/projects/super_login-8.x-1.2.zip",
                 "reference": "8.x-1.2",
                 "shasum": "c6a581dcc266ba2158d101b3314fbcd9f16bf6e9"
->>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1895,25 +2036,63 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-<<<<<<< HEAD
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1554612486",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-=======
                     "version": "8.x-1.2",
                     "datestamp": "1525797784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
->>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-<<<<<<< HEAD
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "quantumized",
+                    "homepage": "https://www.drupal.org/user/61221"
+                }
+            ],
+            "description": "Improves the Drupal login and registration forms.",
+            "homepage": "https://www.drupal.org/project/super_login",
+            "support": {
+                "source": "https://git.drupalcode.org/project/super_login"
+            }
+        },
+        {
+            "name": "drupal/typed_data",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/typed_data.git",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "962d53659f73de8dfa43f291ef40ec26e1b7a07f"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1554612486",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
                 "GPL-2.0+"
             ],
             "authors": [
@@ -1930,20 +2109,6 @@
             "homepage": "https://www.drupal.org/project/typed_data",
             "support": {
                 "source": "https://git.drupalcode.org/project/typed_data"
-=======
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "quantumized",
-                    "homepage": "https://www.drupal.org/user/61221"
-                }
-            ],
-            "description": "Improves the Drupal login and registration forms.",
-            "homepage": "https://www.drupal.org/project/super_login",
-            "support": {
-                "source": "https://git.drupalcode.org/project/super_login"
->>>>>>> 1fe60dd9d68de0094f8684bd995a57515326d58c
             }
         },
         {
@@ -2111,6 +2276,65 @@
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
             }
+        },
+        {
+            "name": "drupal/webform_user_registration",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform_user_registration.git",
+                "reference": "93b8fb357118e8d214b06483c556ba5bb67d5e13"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/webform": "*"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.2",
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0+4-dev",
+                    "datestamp": "1551205380",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "phplint": [
+                    "vendor/bin/parallel-lint --exclude vendor/ --exclude .idea/ -e php,module,inc,install,profile,theme ."
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs --ignore=vendor/,.idea/ --standard=vendor/drupal/coder/coder_sniffer/Drupal/ruleset.xml --extensions=php,module,inc,install,profile,theme --report=full --warning-severity=0 ."
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf --ignore=vendor/,.idea/ --standard=vendor/drupal/coder/coder_sniffer/Drupal/ruleset.xml --extensions=php,module,inc,install,profile,theme ."
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Etroid",
+                    "homepage": "https://www.drupal.org/user/3048985"
+                }
+            ],
+            "description": "Webform user registration handler.",
+            "homepage": "https://www.drupal.org/project/webform_user_registration",
+            "support": {
+                "source": "https://git.drupalcode.org/project/webform_user_registration"
+            },
+            "time": "2019-02-26 18:20:06"
         },
         {
             "name": "drush/drush",
@@ -6018,7 +6242,7 @@
             "time": "2019-01-14 23:55:14"
         },
         {
-            "name": "mikey179/vfsstream",
+            "name": "mikey179/vfsStream",
             "version": "v1.6.5",
             "source": {
                 "type": "git",
@@ -7212,6 +7436,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/rules": 15,
+        "drupal/webform_user_registration": 20,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },

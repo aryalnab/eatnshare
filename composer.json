@@ -14,7 +14,11 @@
         "drupal/we_megamenu": "^1.5",
         "drupal/rules": "^3.0@alpha",
         "drupal/super_login": "^1.2",
-        "drupal/better_login_form_config": "^1.1"
+        "drupal/better_login_form_config": "^1.1",
+        "drupal/fancy_login": "^2.2",
+        "drupal/betterlogin": "^1.2",
+        "drupal/advanced_user_registration_and_management": "^2.2",
+        "drupal/webform_user_registration": "1.x-dev"
     },
     "replace": {
         "drupal/core": "^8.7"
