@@ -22,7 +22,6 @@ permissions:
   - 'administer permissions'
   - 'administer taxonomy'
   - 'administer themes'
-  - 'administer url aliases'
   - 'administer users'
   - 'administer views'
   - 'administer webform'

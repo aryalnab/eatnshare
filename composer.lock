@@ -7127,7 +7127,7 @@
             "time": "2019-01-14 23:55:14"
         },
         {
-            "name": "mikey179/vfsStream",
+            "name": "mikey179/vfsstream",
             "version": "v1.6.5",
             "source": {
                 "type": "git",
