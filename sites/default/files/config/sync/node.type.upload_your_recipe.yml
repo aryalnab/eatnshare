@@ -1,4 +1,4 @@
-uuid: 223a1134-d42f-4576-a66d-3dcc0640c1ea
+uuid: 2a9ca29f-5fe6-4a10-ba21-87f54dd32cc4
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,11 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
-    parent: 'main:standard.front_page'
-name: Recipe
-type: recipe
+      - admin
+      - footer
+    parent: 'main:'
+name: 'Upload your recipe'
+type: upload_your_recipe
 description: ''
 help: ''
 new_revision: true

@@ -1,4 +1,4 @@
-uuid: d4f8e420-92c0-4f0b-8096-22c1cb24ce1d
+uuid: bed7cd09-5696-44b3-9629-07b6fa890f54
 langcode: en
 status: true
 dependencies:
@@ -8,20 +8,18 @@ dependencies:
     - system
   theme:
     - restaurant_zymphonies_theme
-_core:
-  default_config_hash: cXda2q-6EdXasa-vqNxHA-716NEEl8uuGzcOWxLUHnY
-id: restaurant_zymphonies_theme_main_menu
+id: aboutus_2
 theme: restaurant_zymphonies_theme
 region: primary_menu
-weight: 10
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'About Us'
   provider: system
-  label_display: '0'
+  label_display: visible
   level: 1
-  depth: 2
+  depth: 0
   expand_all_items: false
 visibility: {  }

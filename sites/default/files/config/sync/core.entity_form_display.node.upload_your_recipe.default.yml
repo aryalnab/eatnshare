@@ -1,21 +1,16 @@
-uuid: b1c3dacc-3290-44ee-b724-8f2d62884c97
+uuid: a3197967-4fe3-4f42-8dec-e260ca97b0fa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.recipe.body
-    - field.field.node.recipe.field_cuisine
-    - field.field.node.recipe.field_ingredients
-    - field.field.node.recipe.field_picture_of_the_dish
-    - image.style.thumbnail
-    - node.type.recipe
+    - field.field.node.upload_your_recipe.body
+    - node.type.upload_your_recipe
   module:
-    - image
     - path
     - text
-id: node.recipe.default
+id: node.upload_your_recipe.default
 targetEntityType: node
-bundle: recipe
+bundle: upload_your_recipe
 mode: default
 content:
   body:
@@ -27,31 +22,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
-  field_cuisine:
-    weight: 126
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
+  created:
+    type: datetime_timestamp
+    weight: 10
     region: content
-  field_ingredients:
-    weight: 125
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: text_textfield
-    region: content
-  field_picture_of_the_dish:
-    weight: 122
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
   path:
     type: path
     weight: 30
@@ -87,6 +63,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  created: true
-  uid: true
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,17 +1,17 @@
-uuid: cda058e7-c314-480c-b602-b16739ec0a8f
+uuid: 36390ea1-bcc6-4f96-ab0f-9f1819441807
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.recipe.body
-    - node.type.recipe
+    - field.field.node.upload_your_recipe.body
+    - node.type.upload_your_recipe
   module:
     - text
     - user
-id: node.recipe.teaser
+id: node.upload_your_recipe.teaser
 targetEntityType: node
-bundle: recipe
+bundle: upload_your_recipe
 mode: teaser
 content:
   body:

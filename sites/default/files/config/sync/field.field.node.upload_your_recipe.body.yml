@@ -1,25 +1,21 @@
-uuid: 5f0554cb-97e1-4260-82da-618e266d5ce8
+uuid: 047c466b-270d-4cb6-96ac-ed20a267d8e4
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.recipe
+    - node.type.upload_your_recipe
   module:
     - text
-id: node.recipe.body
+id: node.upload_your_recipe.body
 field_name: body
 entity_type: node
-bundle: recipe
-label: Steps
+bundle: upload_your_recipe
+label: Body
 description: ''
 required: false
 translatable: true
-default_value:
-  -
-    summary: ''
-    value: "<ol>\r\n\t<li>&nbsp;</li>\r\n</ol>\r\n"
-    format: basic_html
+default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: true
