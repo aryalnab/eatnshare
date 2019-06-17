@@ -19,7 +19,7 @@
         "drupal/betterlogin": "^1.2",
         "drupal/advanced_user_registration_and_management": "^2.2",
         "drupal/webform_user_registration": "1.x-dev",
-        "vlucas/phpdotenv": "^3.3",
+        "vlucas/phpdotenv": "^3.4",
         "drupal/console": "~1.0",
         "drupal/devel": "^2.1",
         "drupal/search_kint": "^1.0"
