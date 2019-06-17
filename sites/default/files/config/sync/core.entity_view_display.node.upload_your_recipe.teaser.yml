@@ -27,4 +27,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_cuisine: true
+  field_ingredients: true
+  field_picture_of_the_dish: true
