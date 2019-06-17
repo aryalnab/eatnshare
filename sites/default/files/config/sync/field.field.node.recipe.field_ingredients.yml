@@ -1,0 +1,81 @@
+uuid: 29887925-26bc-4794-8204-52efefd5a897
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recipe
+label: Ingredients
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1.'
+    format: restricted_html
+  -
+    value: '2.'
+    format: restricted_html
+  -
+    value: '3.'
+    format: restricted_html
+  -
+    value: '4.'
+    format: restricted_html
+  -
+    value: '5.'
+    format: restricted_html
+  -
+    value: '6.'
+    format: restricted_html
+  -
+    value: '7.'
+    format: restricted_html
+  -
+    value: '8.'
+    format: restricted_html
+  -
+    value: '9.'
+    format: restricted_html
+  -
+    value: '10.'
+    format: restricted_html
+  -
+    value: '11.'
+    format: restricted_html
+  -
+    value: '12.'
+    format: restricted_html
+  -
+    value: '13.'
+    format: restricted_html
+  -
+    value: '14.'
+    format: restricted_html
+  -
+    value: '15.'
+    format: restricted_html
+  -
+    value: '16.'
+    format: restricted_html
+  -
+    value: '17.'
+    format: restricted_html
+  -
+    value: '18.'
+    format: restricted_html
+  -
+    value: '19.'
+    format: restricted_html
+  -
+    value: '20.'
+    format: restricted_html
+default_value_callback: ''
+settings: {  }
+field_type: text
