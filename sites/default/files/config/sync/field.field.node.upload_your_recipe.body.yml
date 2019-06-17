@@ -1,4 +1,4 @@
-uuid: 047c466b-270d-4cb6-96ac-ed20a267d8e4
+uuid: 1601d115-8b03-47f9-a115-c7fd6aac9d50
 langcode: en
 status: true
 dependencies:
@@ -11,11 +11,15 @@ id: node.upload_your_recipe.body
 field_name: body
 entity_type: node
 bundle: upload_your_recipe
-label: Body
+label: Steps
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    summary: ''
+    value: "<ol>\r\n\t<li>&nbsp;</li>\r\n</ol>\r\n"
+    format: basic_html
 default_value_callback: ''
 settings:
   display_summary: true
