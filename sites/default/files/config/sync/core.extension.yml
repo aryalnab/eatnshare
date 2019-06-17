@@ -1,6 +1,5 @@
 module:
   automated_cron: 0
-  better_login_form_config: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -51,9 +50,13 @@ module:
   webform_node: 0
   webform_ui: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   webform_user_registration: 0
 =======
 >>>>>>> 91e1fa95ba6d292bc30b1637bca0afcfd75c3f0c
+=======
+  webform_user_registration: 0
+>>>>>>> e003b56b276c7aa2f9be2f481adafbc6270d38ff
   menu_link_content: 1
   webform_bootstrap: 1
   views: 10
