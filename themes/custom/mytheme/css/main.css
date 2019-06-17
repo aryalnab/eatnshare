@@ -8,5 +8,9 @@ align-items:flex-start;
 }
 
 #main-menu{
+<<<<<<< HEAD
+    background-color:brown;
+=======
     background-color:blue;
+>>>>>>> 91e1fa95ba6d292bc30b1637bca0afcfd75c3f0c
 }
