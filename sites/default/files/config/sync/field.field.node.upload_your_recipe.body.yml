@@ -1,0 +1,22 @@
+uuid: 047c466b-270d-4cb6-96ac-ed20a267d8e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.upload_your_recipe
+  module:
+    - text
+id: node.upload_your_recipe.body
+field_name: body
+entity_type: node
+bundle: upload_your_recipe
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

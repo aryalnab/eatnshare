@@ -1,0 +1,28 @@
+uuid: aa62b588-5288-45b5-bd02-1f5641f12ba7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.upload_your_recipe.body
+    - node.type.upload_your_recipe
+  module:
+    - text
+    - user
+id: node.upload_your_recipe.default
+targetEntityType: node
+bundle: upload_your_recipe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

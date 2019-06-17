@@ -1,0 +1,30 @@
+uuid: 36390ea1-bcc6-4f96-ab0f-9f1819441807
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.upload_your_recipe.body
+    - node.type.upload_your_recipe
+  module:
+    - text
+    - user
+id: node.upload_your_recipe.teaser
+targetEntityType: node
+bundle: upload_your_recipe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

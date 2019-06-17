@@ -1,0 +1,25 @@
+uuid: bed7cd09-5696-44b3-9629-07b6fa890f54
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - restaurant_zymphonies_theme
+id: aboutus_2
+theme: restaurant_zymphonies_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'About Us'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
