@@ -1,0 +1,21 @@
+uuid: 66800696-596a-4235-a102-5573f9d2e9f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.upload_your_recipe
+  module:
+    - text
+id: node.upload_your_recipe.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: upload_your_recipe
+label: Ingredients
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -10,8 +10,8 @@ _core:
   default_config_hash: BXGiqUinx2AKwX0ov992_KK6vXhnyXSI84UKT4FJp2g
 id: restaurant_zymphonies_theme_search
 theme: restaurant_zymphonies_theme
-region: search
-weight: -6
+region: sidebar_second
+weight: -2
 provider: null
 plugin: search_form_block
 settings:

@@ -5,14 +5,6 @@ dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-<<<<<<< HEAD
-<<<<<<< HEAD
 label: 'Main Menu '
-=======
-label: 'About Us'
->>>>>>> 91e1fa95ba6d292bc30b1637bca0afcfd75c3f0c
-=======
-label: 'Main Menu '
->>>>>>> e003b56b276c7aa2f9be2f481adafbc6270d38ff
 description: 'Site section links'
 locked: true

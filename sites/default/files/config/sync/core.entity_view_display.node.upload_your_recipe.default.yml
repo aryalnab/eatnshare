@@ -1,11 +1,15 @@
-uuid: aa62b588-5288-45b5-bd02-1f5641f12ba7
+uuid: c66fb137-2fa7-449f-9dfc-87fb5ff9e424
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.upload_your_recipe.body
+    - field.field.node.upload_your_recipe.field_cuisine
+    - field.field.node.upload_your_recipe.field_ingredients
+    - field.field.node.upload_your_recipe.field_picture_of_the_dish
     - node.type.upload_your_recipe
   module:
+    - image
     - text
     - user
 id: node.upload_your_recipe.default
@@ -19,6 +23,30 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_cuisine:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_ingredients:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_picture_of_the_dish:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   links:
     weight: 100

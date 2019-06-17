@@ -1,4 +1,4 @@
-uuid: 2a9ca29f-5fe6-4a10-ba21-87f54dd32cc4
+uuid: d55461de-c0de-41a1-b39c-7f99243f565e
 langcode: en
 status: true
 dependencies:
@@ -8,12 +8,10 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
-      - admin
-      - footer
-    parent: 'main:'
+    parent: 'main:standard.front_page'
 name: 'Upload your recipe'
 type: upload_your_recipe
-description: ''
+description: 'This lets authenticated users upload their recipes.'
 help: ''
 new_revision: true
 preview_mode: 1
