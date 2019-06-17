@@ -12,7 +12,11 @@ id: log_in
 title: 'Log In'
 description: ''
 category: ''
+<<<<<<< HEAD
+elements: "username:\n  '#type': textarea\n  '#title': Username\n  '#title_display': invisible\n  '#minlength': '1'\n  '#size': '5'\n  '#rows': '1'\n  '#placeholder': Username\n  '#required': true\n  '#required_error': 'This field is required'\n  '#unique': true\nemail_:\n  '#type': email\n  '#title': 'Email '\n  '#title_display': invisible\n  '#placeholder': 'Enter Your Email '\n  '#required': true\n  '#required_error': 'It is required'\n  '#unique': true\nconfirm_password:\n  '#type': textfield\n  '#title': Password\n  '#title_display': invisible\n  '#minlength': '2'\n  '#placeholder': Password\n  '#input_hide': true\n  '#required_error': 'Required field missing'\n  '#states':\n    required:\n      ':input[name=\"password\"]':\n        filled: true\n    enabled:\n      ':input[name=\"password\"]':\n        value: ''"
+=======
 elements: "username:\n  '#type': textarea\n  '#title': Username\n  '#title_display': invisible\n  '#minlength': '1'\n  '#size': '5'\n  '#rows': '1'\n  '#placeholder': Username\n  '#required': true\n  '#required_error': 'This field is required'\n  '#unique': true\nemail_:\n  '#type': email\n  '#title': 'Email '\n  '#title_display': invisible\n  '#placeholder': 'Enter Your Email '\n  '#required': true\n  '#required_error': 'It is required'\n  '#unique': true\npassword:\n  '#type': textfield\n  '#title': Password\n  '#title_display': invisible\n  '#minlength': '5'\n  '#maxlength': '20'\n  '#placeholder': Password\n  '#required': true\n  '#unique': true\nconfirm_password:\n  '#type': textfield\n  '#title': 'Confirm Password'\n  '#title_display': invisible\n  '#placeholder': 'Confirm Password'\n  '#states':\n    required:\n      ':input[name=\"password\"]':\n        filled: true\n    enabled:\n      ':input[name=\"password\"]':\n        value:\n          pattern: ''"
+>>>>>>> 927537883aefb9d07fc02ca7d6cc5886fd56d023
 css: ''
 javascript: ''
 settings:
