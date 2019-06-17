@@ -1,0 +1,67 @@
+name: Restaurant Zymphonies Theme
+type: theme
+description: 'Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>'
+package: core
+# core: 8.x
+
+#Libraries
+libraries:
+  - restaurant_zymphonies_theme/bootstrap
+  - restaurant_zymphonies_theme/flexslider
+  - restaurant_zymphonies_theme/fontawesome
+  - restaurant_zymphonies_theme/smartmenus
+  - restaurant_zymphonies_theme/owl
+  - restaurant_zymphonies_theme/global-components
+
+#Regions
+regions:
+
+  #Header
+  header: 'Header'
+  contact_email: 'Contact email'
+  user_menu: 'user menu'
+  primary_menu: 'Primary menu'
+  search: 'Search'
+
+  #Home Page
+  homepagemessage: 'Home page message'
+
+  topwidget_first: 'Top first widget'
+  topwidget_second: 'Top second widget'
+  topwidget_third: 'Top third widget'
+  topwidget_forth: 'Top forth widget'
+
+  #Global Region
+  highlighted: 'Highlighted' 
+  page_title: 'Page title'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+
+  #Parallax Widgets
+  services: 'Services'
+
+  #Bottom Widgets
+  bottom_first: 'Bottom first widget'
+  bottom_second: 'Bottom second widget'
+  bottom_third: 'Bottom third widget'
+  bottom_forth: 'Bottom forth widget'
+
+  #Clients Widgets
+  clients: 'Clients'
+
+  #Footer widgets
+  footer_first: 'Footer first widget'
+  footer_second: 'Footer second widget'
+  footer_third: 'Footer third widget'
+
+  #Address
+  google_map: 'Google map'
+
+  auto_hidden_block: 'Auto hidden blocks'
+# Information added by Drupal.org packaging script on 2017-07-11
+version: '8.x-1.0'
+core: '8.x'
+project: 'restaurant_zymphonies_theme'
+datestamp: 1499774675

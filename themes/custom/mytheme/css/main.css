@@ -1,0 +1,12 @@
+.main-menu {
+background-color: yellow;
+}
+
+.main-header{
+display:flex;    
+align-items:flex-start;
+}
+
+#main-menu{
+    background-color:brown;
+}
