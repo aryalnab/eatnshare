@@ -22,7 +22,10 @@ permissions:
   - 'administer permissions'
   - 'administer taxonomy'
   - 'administer themes'
+<<<<<<< HEAD
   - 'administer url aliases'
+=======
+>>>>>>> 91e1fa95ba6d292bc30b1637bca0afcfd75c3f0c
   - 'administer users'
   - 'administer views'
   - 'administer webform'
