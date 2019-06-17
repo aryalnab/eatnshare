@@ -1,0 +1,11 @@
+name: 'Fancy Login'
+type: 'module'
+description: 'Creates a fancy javascript based popup login window'
+# core: '8.x'
+configure: fancy_login.admin_fancy_login
+
+# Information added by Drupal.org packaging script on 2017-04-10
+version: '8.x-2.2'
+core: '8.x'
+project: 'fancy_login'
+datestamp: 1491842945
