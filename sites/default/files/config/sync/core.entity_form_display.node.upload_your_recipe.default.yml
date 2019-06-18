@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.upload_your_recipe.body
     - field.field.node.upload_your_recipe.field_cuisine
-    - field.field.node.upload_your_recipe.field_ingredients
+    - field.field.node.upload_your_recipe.field_ingre
     - field.field.node.upload_your_recipe.field_picture_of_the_dish
     - image.style.thumbnail
     - node.type.upload_your_recipe
@@ -20,7 +20,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 126
     settings:
       rows: 9
       summary_rows: 3
@@ -35,20 +35,17 @@ content:
     third_party_settings: {  }
   field_cuisine:
     weight: 124
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: options_select
     region: content
-  field_ingredients:
-    weight: 123
+  field_ingre:
+    weight: 121
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: text_textarea
     region: content
   field_picture_of_the_dish:
     weight: 122

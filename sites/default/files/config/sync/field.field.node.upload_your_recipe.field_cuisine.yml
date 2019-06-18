@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_cuisine
     - node.type.upload_your_recipe
-    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.cuisines
 id: node.upload_your_recipe.field_cuisine
 field_name: field_cuisine
 entity_type: node
@@ -20,10 +20,10 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tags: tags
+      cuisines: cuisines
     sort:
       field: name
       direction: asc
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: cuisines
 field_type: entity_reference

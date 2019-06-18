@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.upload_your_recipe.body
     - field.field.node.upload_your_recipe.field_cuisine
-    - field.field.node.upload_your_recipe.field_ingredients
+    - field.field.node.upload_your_recipe.field_ingre
     - field.field.node.upload_your_recipe.field_picture_of_the_dish
     - node.type.upload_your_recipe
   module:
@@ -32,8 +32,8 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_ingredients:
-    weight: 103
+  field_ingre:
+    weight: 106
     label: above
     settings: {  }
     third_party_settings: {  }
