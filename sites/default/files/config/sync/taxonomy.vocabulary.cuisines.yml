@@ -1,0 +1,8 @@
+uuid: 06a99fd4-d41d-4903-a7a4-1aba86345f0f
+langcode: en
+status: true
+dependencies: {  }
+name: Cuisines
+vid: cuisines
+description: 'different types of cuisnes'
+weight: 0

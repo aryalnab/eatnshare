@@ -1,0 +1,24 @@
+uuid: 4510834d-17d7-4cfc-9ce6-9c2f3705b3f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingre
+    - node.type.upload_your_recipe
+  module:
+    - text
+id: node.upload_your_recipe.field_ingre
+field_name: field_ingre
+entity_type: node
+bundle: upload_your_recipe
+label: Ingredients
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<ol>\r\n\t<li>&nbsp;</li>\r\n</ol>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

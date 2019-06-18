@@ -1,16 +1,15 @@
-uuid: e0721547-b410-4a17-8aab-c5e43c440c1b
+uuid: 04274900-fbac-4db6-9722-5fe313089ef8
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_ingredients
-field_name: field_ingredients
+id: node.field_ingre
+field_name: field_ingre
 entity_type: node
-type: text
-settings:
-  max_length: 255
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 1
