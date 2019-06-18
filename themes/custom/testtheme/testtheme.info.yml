@@ -1,0 +1,21 @@
+name: Test Theme theme
+type: theme
+description: A Drupal 8 theme
+package: core
+screenshot: screenshot.png
+core: 8.x
+
+# Define regions
+#Regions
+regions:
+  header: Header
+  messages: Messages
+  navigation: Navigation
+  content: Content
+  footer: Footer
+
+# Define Libraries
+libraries: 
+  -testtheme/global-styling
+  -testtheme/global-scripting
+
