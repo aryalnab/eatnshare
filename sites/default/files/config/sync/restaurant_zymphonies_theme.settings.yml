@@ -18,7 +18,7 @@ show_slideshow: 1
 no_of_slides: '3'
 slide_title_1: 'Butter Chicken '
 slide_description_1: 'Delicious South Asian Cuisine made with tandoori chicken, tomato sauce and spices. '
-slide_url_1: Log%20In
+slide_url_1: '#'
 slide_image_path_1: /images/slider/slide_01.jpg
 slide_title_2: 'Zymphonies Theme'
 slide_description_2: 'long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution'
@@ -35,7 +35,6 @@ logo:
   path: 'public://eatnn_0.png'
 favicon:
   use_default: 1
-slide_image_path1:
-  - '3'
+slide_image_path1: {  }
 slide_image_path2: {  }
 slide_image_path3: {  }
