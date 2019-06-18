@@ -1,0 +1,15 @@
+# global components
+global-styling:
+  Version: 1.x
+  css:
+    theme:
+      dist/css/styles.css: {}
+global-scripting:
+  Version: 1.x
+  js:
+    dist/js/script.main.js: {}
+  deoendencies:
+  -core/drupal
+  -core/jquery
+  -core/jquery.once
+      
