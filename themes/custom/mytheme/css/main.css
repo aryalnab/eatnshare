@@ -7,8 +7,7 @@ display:flex;
 align-items:flex-start;
 }
 
-img{
-    float: right;
+
 }
 .field__label{
     font-style: italic;
@@ -18,4 +17,14 @@ p {
     margin-top: 20px;
     font-family: mali;
     font-size: 1.5em;
+}
+
+.main-header{
+    background-color: rgb(226, 147, 43)
+    
+
+}
+.site-branding_logo .img{
+    width: 100%;
+    height: auto;
 }

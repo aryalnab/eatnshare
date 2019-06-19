@@ -32,7 +32,7 @@ _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
 logo:
   use_default: 0
-  path: 'public://eatnn_0.png'
+  path: 'public://logo_0.png'
 favicon:
   use_default: 1
 slide_image_path1: {  }
